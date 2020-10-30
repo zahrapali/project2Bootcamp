@@ -1,0 +1,32 @@
+
+
+.mainContainer{
+    display: flex;
+}
+
+.leftside{
+    padding: 10px;
+}
+
+.rightSide{
+        padding: 10px;
+
+}
+
+// COMMENTS
+
+.comments{
+    display: flex;
+
+    div{
+        padding: 10px;
+    }
+        h4{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        P{
+            margin-top: 0px;
+            margin-bottom: 0px;
+        } 
+}

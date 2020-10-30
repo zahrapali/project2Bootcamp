@@ -1,0 +1,115 @@
+.sectionTwoHomePage{
+    background-color: $mauve;
+    padding: 150px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    
+    
+}
+
+.sectionTwoHomePageItems{
+       margin: auto 20%;
+       padding: 22px 20px;
+    }
+
+    .sectionTwoHomePage p{
+        padding-bottom: 50px;
+    }
+    
+// SECTION THREE NEW ADDITIONS STYLE
+
+.sectionThreeHomePage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    
+}
+.sectionThreeHomePageItem1{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+    
+}
+
+.sectionThreeHomePageItem2{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+    
+}
+
+.sectionThreeHomePage div{
+    width: 50%;
+}
+
+
+// SECTION FOUR STYLE 
+
+.sectionFourHomePage{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sectionFourHomePage div{
+    width: 50%;
+    padding: 10px;
+}
+
+.sectionFourHomePage div div{
+    width: 100%;
+}
+
+.homePageIcon{
+    display: flex;
+    
+    
+}
+
+.sectionFourHomePage i{
+    background-color: $purple;
+    border-radius: 50%;;
+    color: $white;
+
+}
+
+// SECCTION FIVE- FULL WIDTH IMAGE BANNER
+.sectionFiveHomePage{
+    color: $white;
+    background-image:url(/assets/home-box-header.png);
+}
+
+// SECTION SIX STYLE
+
+.sectionsixHomePage{
+    display: flex;
+    padding: 50px 0;
+}
+.sectionsixHomePage div { 
+    padding: 20px;
+}
+
+.sectionsixHomePage div h2{
+    margin: 0;
+}
+
+// GALLERY SECTION STYLE
+
+.galleryHomePage{
+    background-color: $mauve;
+    padding: 80px 0;
+}
+
+.gallery{ 
+    display: flex;
+    justify-content: center;
+}
+
+.gallery img{
+    padding: 10px;
+}

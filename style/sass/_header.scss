@@ -1,0 +1,51 @@
+header .headerBanner, .blog, .contact{ 
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.headerBanner{
+    background-image: url(../assets/header-image.jpg);
+    
+}
+
+.blog{
+    background-image: url(../assets/blog-header.jpg);
+   
+}
+
+.contact{
+    background-image: url(../assets/contact-image.jpg);
+   
+}
+header ul {
+    display: flex;
+    justify-content: flex-end;
+}
+header ul li{
+    padding: 20px;
+}
+
+header h1{
+    line-height: 1;
+    padding: 50px;
+    width: 20%;;
+
+}
+
+.logo{
+    flex-grow: (1);
+    font-family: $primary;
+    color: $black;
+    font-size: 35.8px;
+    letter-spacing: 1.1px;
+    line-height: 46px;
+    
+}
+.logo a:hover{
+    background-color: $white;
+    color: $black;
+    
+}

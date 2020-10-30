@@ -1,0 +1,83 @@
+$primary: 'Pompiere', cursive;
+$secondary:'Lato', sans-serif;
+
+
+// NAVIGATION LINK STYLE
+
+header ul li{ 
+    font-family: $secondary;
+    font-weight: bold;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: $purple;
+    list-style-type: none;
+    text-decoration: uppercase;
+    font-size: 2rem;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+// NAVIGATION  HOVER AND ACCESSIBILITY 
+
+header ul li :hover, 
+header ul li :focus{
+    color: $white;
+    background-color: $purple;
+    padding: 5px 10px; 
+
+
+}
+
+
+// OTHER LINKS STYLE
+
+.mainButton{
+    font-family: $secondary;
+    font-weight: bold;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: $white;
+    background-color: $brown;
+    padding: 15px 20px;
+    list-style-type: none;
+    text-decoration: uppercase;
+    font-size: 2rem;
+
+
+}
+
+// OTHER HOVER AND ACCESSIBILITY 
+.mainButton :hover, 
+.mainButton :focus {
+    background-color: $purple;
+    padding: 15px 20px;
+
+     
+
+}
+
+// GENERAL TYPOGRAPHY STYLE
+
+
+h1{
+    font-family: $primary;
+    font-size: 10rem;
+    line-height: 64px;
+    color: $purple;
+}
+
+h2{
+    font-family: 'Pompiere', cursive;
+    font-size: 8rem;
+    line-height: 92px;
+    color: $purple;
+    text-transform: uppercase;
+}
+
+p{
+    font-family: $secondary;
+    font-size: 2rem;
+    line-height: 32px;
+}
