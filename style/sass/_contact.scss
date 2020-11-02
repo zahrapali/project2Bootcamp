@@ -17,7 +17,6 @@
 
 .contactMain #contactForm {
     background: white;
-    // width: 500px;
     height: 500px;
     box-shadow: 28px 28px 0px 0px $orange;
     position: relative;
@@ -96,6 +95,7 @@ body {
     color: black;
 }
 
-[type="checkbox"], [type="radio"] {
-visibility: hidden;
+[type="checkbox"], 
+[type="radio"] {
+    visibility: hidden;
 }

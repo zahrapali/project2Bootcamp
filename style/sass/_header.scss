@@ -4,41 +4,30 @@ header, .headerBanner, .blog, .contact{
     height: 100vh;
 }
 .headerWrapper{
-        max-width: 1500px;
-        width: 100%;
-        margin: 0 auto;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
 }
-
-     nav input[type=checkbox],
-nav i.fa-bars {
-  display: none;
-}
-
 
 .headerBanner{
     background-image: url(../assets/header-image.jpg);
-    
 }
 
 .blog{
     background-image: url(../assets/blog-header.jpg);
-   
 }
 
 .contact{
     background-image: url(../assets/contact-image.jpg);
-   
 }
 
 header nav{
     display: block;
-
 }
 header ul {
     display: flex;
     justify-content: flex-end;
-    padding-top: 23px;
-    
+    padding-top: 23px; 
 }
 header ul li a{
     padding: 20px;
@@ -61,7 +50,6 @@ header h1{
     line-height: 1;
     padding: 50px;
     width: 20%;;
-
 }
 
 .logo{
@@ -72,19 +60,16 @@ header h1{
     letter-spacing: 1.1px;
     line-height: 46px;
     text-transform: initial;
-    
 }
 .logo :hover{
     background-color: $white;
     color: $black;
-    
 }
 
 .headerFlex{
     display: flex;
     justify-content: space-between;
     margin-top: 8rem;
-
 }
 
 .headerFlex .headerImage{
@@ -98,7 +83,6 @@ header h1{
     display: block;
     margin: 0;
     padding: 0;
-
  }
 
  .headerFlex h1 {

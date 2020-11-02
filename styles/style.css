@@ -330,11 +330,6 @@ header, .headerBanner, .blog, .contact {
   margin: 0 auto;
 }
 
-nav input[type=checkbox],
-nav i.fa-bars {
-  display: none;
-}
-
 .headerBanner {
   background-image: url(../assets/header-image.jpg);
 }
@@ -717,7 +712,8 @@ h4 {
   padding: 10px;
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   visibility: hidden;
 }
 
@@ -819,7 +815,8 @@ body {
   color: black;
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   visibility: hidden;
 }
 
@@ -958,8 +955,8 @@ body {
 }
 
 .leftSide > section:nth-child(2) > h4:nth-child(2) {
-  margin-top: 0px;
   margin-bottom: 0px;
+  margin-top: 0px;
   font-family: "Lato", sans-serif;
   font-size: 2rem;
   font-weight: bold;
@@ -1049,7 +1046,8 @@ input[type=email] {
   margin-bottom: 50px;
 }
 
-[type="checkbox"], [type="radio"] {
+[type="checkbox"],
+[type="radio"] {
   visibility: hidden;
 }
 
@@ -1136,14 +1134,12 @@ input[type=email] {
     width: 210px;
   }
   .contact > h1:nth-child(2) {
-    /*! margin-left: 30%; */
     padding-right: 0px;
     width: none;
   }
   header h1 {
     line-height: 1;
     padding: 50px;
-    /*! width: 20%; */
   }
   #orangeBackground {
     display: none;
@@ -1447,7 +1443,6 @@ input[type=email] {
     width: 334px;
   }
   .headerImg span {
-    /* height: 419px; */
     height: 226px;
   }
   .headerImg > img:nth-child(2) {
@@ -1461,11 +1456,9 @@ input[type=email] {
             flex-direction: column-reverse;
   }
   .leftSide {
-    /* width: 70%; */
     width: 100%;
   }
   .rightSide {
-    /* width: 30%; */
     width: 100%;
   }
   .rightSide {
