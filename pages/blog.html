@@ -12,33 +12,40 @@
 
 </head>
 
+
+
 <body>
     <!-- HOME PAGE STYLES -->
-
+<a href="#about" class="skipLink">Skip to main
+    content.</a>
     <!-- HEADER STARTS  -->
 
     <header class="blog">
-        <ul class="wrapper">
-            <li class="logo">Shoe<br>Kloset</a></li>
-            <li><a href="./index.html"> Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="./pages/blog.html">Blog</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
-    
-        </ul>
+        <input type="checkbox" id="overlay-input" />
+        <label for="overlay-input" id="overlay-button"><span></span></label>
+        <nav id="overlay">
+            <ul class="headerWrapper">
+                <li class="logo">Shoe<br>Kloset</a></li>
+                <li><a href="/index.html"> Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./pages/blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+        
+            </ul>
+        </nav>
         <div class="wrapper">
     
-            <h1>Blog</h1>
+            <h1 class="blogh1">Blog</h1>
     
         </div>
     
     </header>
 
-<main class="mainContainer wrapper">
+<main class="mainContainer">
     <div class="rightSide">
     <aside>
         <div>
-            <img src="" alt="">
+            <img src="..//assets/sidebar-image.jpg" class="sideBarImage" alt="A pair of running shoes jumping in water ">
         </div>
         <div>
             <h3>Any Weather </h3>
@@ -58,7 +65,15 @@
     </aside>
 </div >
 
+
+
+
         <div class="leftSide">
+            <section class="headerImg">
+                
+                 <img src="../assets/blog-post-image.jpg" class="blogImage" alt=" two people walking in white heels on cobble stone">
+                 
+            </section>
             <section>
                 <h2>Shoes Around The World</h2>
                 <h4>Monday May 4th, 2019 by Dieula</h4>
@@ -87,7 +102,7 @@
 
                 <div class="comments">
                     <div>
-                        <img src="../assets/comment-1.jpg" alt="">
+                        <img src="../assets/comment-1.jpg" alt="image of commenter">
                     </div>
                     <div>
                     <h4>Tuesday November 21st, 2019 by Jeremy</h4>
@@ -99,7 +114,7 @@
 
                 <div class="comments">
                     <div>
-                        <img src="../assets/comment-2.jpg" alt="">
+                        <img src="../assets/comment-2.jpg" alt="image of commenter( I AM NOT BEING SPECIFIC BECAUSE THEORthically THIS IS A COMMENT)">
                     </div>
                     <div>
                     <h4>Wednesday November 10th 2019 by Julia</h4>
@@ -107,6 +122,41 @@
                         quod reiciendis ab ut.</p>
                     </div>
                 </div>
+            </section>
+
+            <!-- COMMENT FORM  -->
+
+            <section>
+                <form action="commentForm" class="formComment">
+                    <legend class="srOnly">This form is to comment on this blog post</legend>
+                    <div>
+                        <span>
+                            <label for="firstName" class="srOnly">First Name</label>
+                            <input type="text" name="firstName" placeholder="Name" id="firstName">
+                        </span>
+
+                        <span>
+                            <label for="email2" class="srOnly">Email address</label>
+                            <input type="email" name="email" id="email2" placeholder="Email Address" class="emailAddress">
+                        </span>
+                    </div>
+                   
+                    <div>
+                         <label for="message" class="srOnly">Comment</label>
+                        <textarea name="message" id="message" placeholder="Comments" cols="40" rows="10"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Post Comment" placeholder="Post Comment" id="postComment">
+                    </div>
+                        
+
+                       
+                         
+                    </form>
+
+
+                
             </section>
         </div>
         </main>

@@ -7,25 +7,31 @@
     <title>Shoe Kloset</title>
     <link rel="stylesheet" href="../styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Pompiere&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 
 
 </head>
 
 <body>
     <!-- CONTACT STYLES -->
-
+<a href="#about" class="skipLink">Skip to main
+    content.</a>
     <!-- HEADER STARTS  -->
 
     <header class="contact">
-        <ul class="wrapper">
+        <input type="checkbox" id="overlay-input" />
+        <label for="overlay-input" id="overlay-button"><span></span></label>
+    <nav id="overlay">
+        <ul class="headerWrapper">
             <li class="logo">Shoe<br>Kloset</a></li>
-            <li><a href="./index.html"> Home</a></li>
+            <li><a href="/index.html"> Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="./pages/blog.html">Blog</a></li>
-            <li><a href="./pages/contact.html">Contact</a></li>
+            <li><a href="./contact.html">Contact</a></li>
     
         </ul>
+    </nav>
     
         <h1>Get In Touch</h1>
     
@@ -35,45 +41,48 @@
 
     <!-- HEADER END  -->
 
-    <section>
-        <form action="contactForm">
-            <div>
-                <label for="fullName">Name</label>
-                <input type="text" name="Name" id="fullName" class="sronly">
-            </div>
-            
-            <div>
-                <label for="email">Email Address</label>
-                <input type="email" id="email" >
-            </div>
-
-            <div>
-                <label for="textArea">Message</label>
-                <textarea name="message" id="textArea" cols="30" rows="10" placeholder="Message"></textarea> 
-            </div>
-
-            <div>
-                <label for="submit">sumbit</label>
-                <input type="submit" name="submit" id="submit" placeholder="submit">
-            </div>
-
+<main class="contactMain">
+    
+    <section id="contactForm">
+        <form action="formContact" class="formContact"></form>
+        <legend class="srOnly">This form is to comment on this blog post</legend>
+        <div>
+            <span>
+                <label for="firstName1" class="srOnly">First Name</label>
+                <input type="text" name="firstName" placeholder="Name" id="firstName1">
+            </span>
+        
+            <span>
+                <label for="email" class="srOnly">Email address</label>
+                <input type="email" name="email" id="email" placeholder="Email Address" class="emailAddress">
+            </span>
+        </div>
+        
+        <div>
+            <label for="message" class="srOnly">message</label>
+            <textarea name="message" id="message1" placeholder="Message" cols="40" rows="10"></textarea>
+        </div>
+        
+        <div>
+            <input type="submit" value="Post Comment" placeholder="submit" id="submit">
+        </div>
             
         </form>
+        
     </section>
-
     <section class="main">
         <div class="wrapper contactBox">
         <div class="socialMedia">
         
-            <i class="fab fa-instagram fa-2x"><a href="#"></a></i>
-            <i class="fab fa-facebook-f fa-2x"><a href="#"></a></i>
-            <i class="fab fa-snapchat-ghost fa-2x"><a href="#"></a></i>
-            <i class="fab fa-twitter fa-2x"><a href="#"></a></i>
+            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-facebook-f fa-2x"></i>
+            <i class="fab fa-snapchat-ghost fa-2x"></i>
+            <i class="fab fa-twitter fa-2x"></i>
         
         </div>
 
         <div>
-            <h2>info@email.com</h2>
+            <h3>info@email.com</h3>
             <p>123-456-7890</p>
             <p>123 Queen Street West, Unit 10</p>
             <p>Toronto, Ontario</p>
@@ -82,6 +91,8 @@
     </div>
 
     </section>
+</main>
+
 
     <footer>
         <p>Copyright 2019 Juno College</p>

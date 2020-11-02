@@ -3,6 +3,10 @@
 .mainContainer{
     display: flex;
 }
+.blogh1 {
+ margin: auto 19%;
+}
+
 
 .leftside{
     padding: 10px;
@@ -10,8 +14,140 @@
 
 .rightSide{
         padding: 10px;
+        background-color: $mauve;}
+
+
+.rightSide > aside:nth-child(1) {
+width: 80%;
+background: white;
 
 }
+
+.rightSide > aside:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+  position: relative;
+  
+}
+
+.rightSide > aside:nth-child(1) {
+  position: relative;
+}
+
+.rightSide > aside:nth-child(1) {
+  width: 80%;
+  background: white;
+}
+
+.rightSide > aside:nth-child(1) {
+  width: 80%;
+  background: white;
+
+}
+.rightSide > aside:nth-child(1) {
+ right: -30px;
+ top: 40px;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(1) > img:nth-child(1) {
+ left: -40px;
+ top: -10px;
+ width: 420px;
+}
+
+.rightSide > aside:nth-child(1) {
+ left: 70px;
+}
+
+.leftSide {
+ width: 70%;
+}
+
+.rightSide {
+  padding: 10px;
+  background-color: #fae5ff;
+  width: 30%;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(2) > p:nth-child(2) {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(2) > h3:nth-child(1) {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(3) > h3:nth-child(1) {
+ padding-left: 20px;
+ padding-right: 20px;
+}
+.rightSide > aside:nth-child(1) > div:nth-child(3) > ul:nth-child(2) {
+ padding-left: 30px;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(2) > h3:nth-child(1), 
+.rightSide > aside:nth-child(1) > div:nth-child(3) > h3:nth-child(1){
+ font-size: 35.8px;
+ letter-spacing: 1.3px;
+ font-family: $primary;
+ color: $purple;
+ text-transform: uppercase;
+}
+
+.rightSide > aside:nth-child(1) > div:nth-child(3) > ul:nth-child(2) {
+ font-size: 20px;
+ font-family: $secondary;
+ padding-bottom: 20px;
+ line-height: 32px;
+}
+
+
+// STYLING RIGHT SIDE 
+
+.leftSide > section:nth-child(2) {
+width: 80%;
+padding: 40px;
+}
+
+.leftSide > section:nth-child(3) {
+padding: 40px;
+background: $mauve;
+}
+// POST IMAGE
+
+.headerImg{
+    position: relative;
+    margin-top: -330px;
+    
+}
+
+.headerImg img{
+    position: relative;
+    z-index: 10;
+    width: 96%;
+    right: -44px;
+}
+
+.headerImg span{
+    background-color: $orange;
+    width: 95%;
+    height: 780px;
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: -33.75px;
+    
+
+}
+
+.leftSide > section:nth-child(2) > h4:nth-child(2) {
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: $secondary;
+ font-size: 2rem;
+ font-weight: bold;
+}
+
 
 // COMMENTS
 
@@ -20,13 +156,107 @@
 
     div{
         padding: 10px;
+        
     }
         h4{
             margin-top: 0px;
             margin-bottom: 0px;
+            font-family: $secondary;
+            font-size: 2rem;
+            font-weight: bold;
         }
         P{
             margin-top: 0px;
             margin-bottom: 0px;
+            width: 80%;
         } 
+    }
+
+
+        
+        
+        // FORM STYLE FOR COMMENT SECTION
+
+        .leftSide > section:nth-child(4) {
+        background: $mauve;
+        }
+
+
+        .formComment {
+            display: flex;
+            flex-direction: column;
+            justify-content: stretch;
+
+
+        }
+
+    
+
+        input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $orange; 
+    padding: 16px 20px;  
+    width: 35%;    
+    }
+
+       input[type=email] {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $orange;
+    padding: 16px 30px;
+    width: 35%;
 }
+
+.formComment > div:nth-child(3) {
+margin-top: 21px;
+}
+
+#firstName {
+margin-right: 50px;
+}
+
+        #message{ 
+            border: 2px solid $orange;
+            background: transparent;
+            padding: 20px;
+            width: 75%;
+            margin-bottom: 20px;
+    
+        }
+
+        #postComment{
+            text-transform: uppercase;
+            background-color: $purple;
+            color: $white;
+            font-weight: $secondary;
+            border: none;
+            width: 75%;
+            height: 40px;
+            margin-bottom: 50px;
+
+        }
+
+  
+
+
+[type="checkbox"], [type="radio"] {
+visibility: hidden;
+}
+
+
+
+        
+
+.sideBarImage{
+        box-shadow: 28px 28px 0px 0px $orange;
+
+}
+
+.blogImage{
+        box-shadow: -44px 30px 0px 0px $orange;
+
+}
+
+
+

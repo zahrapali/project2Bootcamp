@@ -13,6 +13,8 @@ header ul li{
     list-style-type: none;
     text-decoration: uppercase;
     font-size: 2rem;
+    padding: 5px 10px; 
+
 }
 
 a{ 
@@ -80,4 +82,12 @@ p{
     font-family: $secondary;
     font-size: 2rem;
     line-height: 32px;
+}
+
+h3{
+    font-size: 35.8px;
+    letter-spacing: 1.3px;
+    font-family: "Pompiere", cursive;
+    color: #4c0341;
+    text-transform: uppercase;  
 }

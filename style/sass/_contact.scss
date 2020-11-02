@@ -1,17 +1,101 @@
-.main{ 
+.contactMain{ 
     background-color: $mauve;
-    
-    
-
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
-.contactBox{
-    background-color: $white;
-    display: inline-block;
+.main{
+    margin: 10%;
 }
+
+.contact > h1:nth-child(2) {
+    margin-left: 30%;
+    padding-right: 0px;
+    width: none;
+}
+
+.contactMain #contactForm {
+    background: white;
+    // width: 500px;
+    height: 500px;
+    box-shadow: 28px 28px 0px 0px $orange;
+    position: relative;
+    top: -223px;
+    padding: 50px;
+}
+
+.contactBox div p{
+    margin: 0;
+}
+
+.socialMedia i{
+    color: $purple;
+    padding-right: 20px;
+}
+
 
 // FORM STYLE 
 
-.fullName{
-    color: red;
+
+
+ #firstName1{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $orange; 
+    padding: 16px 20px;  
+    width: 40%;  
+    margin-right: 10px;
+    margin-bottom: 25px;  
+    }
+
+#email {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid $orange;
+    padding: 16px 30px;
+    width: 40%;
+    margin-bottom: 25px;  
+
+}
+
+.formContact > div:nth-child(3) {
+    margin-top: 21px;
+}
+
+
+
+#message1 { 
+    background: transparent;
+    border: 2px solid $orange;
+    width: 100%;
+    padding: 20px;
+    height: 241px;
+    margin-bottom: 20px;
+}
+
+#submit {
+    text-transform: uppercase;
+    background-color: $purple;
+    color: $white;
+    font-weight: $secondary;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 50px;
+}
+
+body > main:nth-child(2) > section:nth-child(1) {
+    padding: 50px;
+}
+body {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 3.2rem;
+    color: black;
+}
+
+[type="checkbox"], [type="radio"] {
+visibility: hidden;
 }

@@ -1,10 +1,19 @@
-header .headerBanner, .blog, .contact{ 
-    min-height: 100vh;
-    background-repeat: no-repeat;
+header, .headerBanner, .blog, .contact{ 
     background-size: cover;
     background-position: center;
-    padding: 40px 0;
+    height: 100vh;
 }
+.headerWrapper{
+        max-width: 1500px;
+        width: 100%;
+        margin: 0 auto;
+}
+
+     nav input[type=checkbox],
+nav i.fa-bars {
+  display: none;
+}
+
 
 .headerBanner{
     background-image: url(../assets/header-image.jpg);
@@ -20,14 +29,34 @@ header .headerBanner, .blog, .contact{
     background-image: url(../assets/contact-image.jpg);
    
 }
+
+header nav{
+    display: block;
+
+}
 header ul {
     display: flex;
     justify-content: flex-end;
+    padding-top: 23px;
+    
 }
-header ul li{
+header ul li a{
     padding: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 2.9rem;
+    color: black;
+    text-transform: uppercase;
+    padding: 10px 20px;
 }
 
+header ul li a:focus-within, 
+header ul li a:hover {
+    background-color: $purple;
+    color: white;
+}
 header h1{
     line-height: 1;
     padding: 50px;
@@ -42,10 +71,46 @@ header h1{
     font-size: 35.8px;
     letter-spacing: 1.1px;
     line-height: 46px;
+    text-transform: initial;
     
 }
-.logo a:hover{
+.logo :hover{
     background-color: $white;
     color: $black;
     
+}
+
+.headerFlex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8rem;
+
+}
+
+.headerFlex .headerImage{
+    max-width: 50vw;
+    max-height: 50vw;
+ }
+
+ .headerImage{
+     width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+ }
+
+ .headerFlex h1 {
+    width: 25%;
+    margin-left: 10%;
+}
+
+.skipLink{
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    color: white;
+    background-color: black;
 }
